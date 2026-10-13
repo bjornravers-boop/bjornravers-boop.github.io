@@ -136,6 +136,10 @@ def page(*, lang, depth, title, app, icon, accent, meta, summary, body, switcher
   </section>
   <article class="policy policy-wrap">
 {body}
+    <div class="hero-cta" style="opacity:1;animation:none;justify-content:flex-start;margin-top:48px">
+      <a class="btn btn-primary" href="{up}privacy/">← All privacy policies</a>
+      <a class="btn btn-ghost" href="{up}">{HOME.get(lang, 'Home')}</a>
+    </div>
   </article>
 </main>
 <footer>

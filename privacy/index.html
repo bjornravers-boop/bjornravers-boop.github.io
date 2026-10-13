@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy · UllieMoeke Productions</title>
-  <meta name="description" content="Privacy policies for every UllieMoeke Productions app.">
+  <title>Privacy Center · UllieMoeke Productions</title>
+  <meta name="description" content="Privacy policies for every UllieMoeke Productions app, and what each app does with your data at a glance.">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,46 +18,138 @@
   <div class="wrap">
     <a class="logo" href="../"><img src="../assets/favicon.svg" alt=""><span>UllieMoeke <small>Productions</small></span></a>
     <nav class="nav-links" aria-label="Main">
+      <a href="../" class="hide-sm">Home</a>
       <a href="../#apps" class="hide-sm">Apps</a>
-      <a href="./">Privacy</a>
+      <a href="./" aria-current="page">Privacy</a>
       <button class="theme-toggle" type="button" aria-label="Toggle theme"></button>
     </nav>
   </div>
 </header>
+
 <main>
-  <section class="policy-hero">
-    <div class="hero-bg" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div></div>
-    <div class="policy-wrap">
-      <div class="crumbs"><a href="../">Home</a><span>/</span><span>Privacy</span></div>
-      <h1 class="title" style="font:800 clamp(40px,7vw,72px)/1 var(--display);letter-spacing:-.045em;margin:28px 0 16px">Privacy, <span class="gradient-text">grandma-style.</span></h1>
-      <p class="policy-meta" style="font-size:19px;max-width:56ch">Our apps keep your stuff on your device. No accounts, no tracking you didn’t ask for. Pick an app to read exactly what it does with your data.</p>
-
-      <div class="policy-list">
-        <a class="policy-link reveal" href="literally-emergency/">
-          <img src="../assets/icons/emergency.png" alt="">
-          <div><b>Literally Emergency</b><span>English · Nederlands · Deutsch · Français</span></div>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-        <a class="policy-link reveal" style="--d:.08s" href="literally-just-a-scanner/">
-          <img src="../assets/icons/scanner.png" alt="">
-          <div><b>Literally Just a Scanner</b><span>Updated 18 September 2026</span></div>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-        <a class="policy-link reveal" style="--d:.16s" href="literally-plantscan/">
-          <img src="../assets/icons/plantscan.svg" alt="">
-          <div><b>Literally Plantscan</b><span>Updated 25 September 2026</span></div>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
+  <section class="pc-hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="wrap">
+      <div class="crumbs reveal in"><a href="../">← Back to home</a></div>
+      <div class="pc-shield reveal in" aria-hidden="true">
+        <svg viewBox="0 0 120 120">
+          <defs><linearGradient id="sg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff6a45"/><stop offset=".55" stop-color="#ffaa2b"/><stop offset="1" stop-color="#9a6bff"/></linearGradient></defs>
+          <path d="M60 8 102 24v32c0 28-18 48-42 56C36 104 18 84 18 56V24z" fill="url(#sg)"/>
+          <path class="tick" d="M40 60l14 14 28-30" fill="none" stroke="#17151c" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
       </div>
+      <span class="kicker reveal in">Privacy Center</span>
+      <h1 class="pc-title reveal in">Your data stays <span class="gradient-text">at grandma’s.</span></h1>
+      <p class="pc-lede reveal in">Our apps do their work on your phone. No accounts, nothing uploaded to us, and ads only when you choose to watch one. Here’s exactly what each app does, in plain language.</p>
+      <div class="pc-pills reveal in">
+        <span>📱 Processed on your device</span><span>🙅 No account needed</span><span>🍪 Ads only when you ask</span>
+      </div>
+    </div>
+  </section>
 
-      <p class="policy-meta" style="margin-top:40px">Questions or requests? Write to <a href="mailto:ulliemoekeproductions@gmail.com" style="color:var(--brand-1)">ulliemoekeproductions@gmail.com</a>.</p>
+  <section class="wrap pc-apps" aria-label="Privacy policies per app">
+    <article class="pc-card red reveal">
+      <div class="pc-card-top">
+        <img src="../assets/icons/emergency.png" alt="">
+        <div><h2>Literally Emergency</h2><span>Updated 29 September 2026</span></div>
+      </div>
+      <ul class="facts">
+        <li><b>Your info</b>Medical info stays on your phone, left out of backups</li>
+        <li><b>Location</b>Shown on screen; never sent to our servers</li>
+        <li><b>Family alarms</b>End-to-end encrypted; our relay can’t read them</li>
+        <li><b>Ads</b>Optional, via Google AdMob; never on emergency buttons</li>
+      </ul>
+      <div class="langs"><a href="literally-emergency/" hreflang="en">EN</a><a href="literally-emergency/nl.html" hreflang="nl">NL</a><a href="literally-emergency/de.html" hreflang="de">DE</a><a href="literally-emergency/fr.html" hreflang="fr">FR</a></div>
+      <a class="pc-read" href="literally-emergency/">Read the full policy <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </article>
+
+    <article class="pc-card blue reveal" style="--d:.08s">
+      <div class="pc-card-top">
+        <img src="../assets/icons/scanner.png" alt="">
+        <div><h2>Literally Just a Scanner</h2><span>Updated 18 September 2026</span></div>
+      </div>
+      <ul class="facts">
+        <li><b>Your scans</b>Cropped and turned into PDFs on your phone</li>
+        <li><b>Storage</b>Saved only in the folder you choose</li>
+        <li><b>Account</b>None. No email address needed</li>
+        <li><b>Ads</b>Optional, via Google AdMob; scanning never needs one</li>
+      </ul>
+      <div class="langs"><a href="literally-just-a-scanner/" hreflang="en">EN</a></div>
+      <a class="pc-read" href="literally-just-a-scanner/">Read the full policy <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </article>
+
+    <article class="pc-card green reveal" style="--d:.16s">
+      <div class="pc-card-top">
+        <img src="../assets/icons/plantscan.svg" alt="">
+        <div><h2>Literally Plantscan</h2><span>Updated 25 September 2026</span></div>
+      </div>
+      <ul class="facts">
+        <li><b>Your photos</b>Plants are recognised on your phone, offline</li>
+        <li><b>History</b>Kept privately in the app until you delete it</li>
+        <li><b>Account</b>None. No email address needed</li>
+        <li><b>Ads</b>Optional, via Google AdMob; scanning never needs one</li>
+      </ul>
+      <div class="langs"><a href="literally-plantscan/" hreflang="en">EN</a></div>
+      <a class="pc-read" href="literally-plantscan/">Read the full policy <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </article>
+  </section>
+
+  <section class="section">
+    <div class="wrap pc-faq-grid">
+      <div class="reveal">
+        <span class="kicker">Good to know</span>
+        <h2 class="title">Questions grandma gets asked.</h2>
+        <p class="pc-side">Can’t find your answer? Write to us and a real person replies.</p>
+        <a class="btn btn-primary" href="mailto:ulliemoekeproductions@gmail.com">Email us
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="faq reveal" style="--d:.1s">
+        <details>
+          <summary>Are “digital cookies” tracking cookies?</summary>
+          <p>No. Digital cookies are a little in-app collectible you get for watching an optional ad. They have no cash value, are stored on your device, and have nothing to do with browser tracking cookies.</p>
+        </details>
+        <details>
+          <summary>Do I have to watch ads?</summary>
+          <p>Never. Ads are only shown when you choose to watch one. Scanning, identifying plants and the emergency buttons always work without ads. Ads are provided by Google AdMob, which may process your IP address, device or advertising identifiers and ad interactions; each app’s policy has the details.</p>
+        </details>
+        <details>
+          <summary>How do I change my ad privacy choices?</summary>
+          <p>Where applicable, open <b>Support → Ad privacy choices</b> in the app. You can also reset or delete your advertising ID in Android settings.</p>
+        </details>
+        <details>
+          <summary>How do I delete my data?</summary>
+          <p>Everything an app stores lives on your phone. Delete items inside the app, or clear the app’s data in Android settings to remove everything. Files you saved to a shared folder, such as Downloads, are deleted separately.</p>
+        </details>
+        <details>
+          <summary>What happens when I donate?</summary>
+          <p>Donations are handled by PayPal under its own privacy policy. The app never sees your card or bank details. We may receive donor and transaction details through PayPal to manage donations.</p>
+        </details>
+        <details>
+          <summary>Does this website track me?</summary>
+          <p>This website has no analytics, ads or tracking cookies. Fonts are loaded from Google Fonts, so Google receives your IP address when you visit. Your light or dark mode choice and website cookie count are remembered in your own browser only.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="cookie-cta reveal">
+      <h2>Back to the apps?</h2>
+      <p>See what each app does, and grab a digital cookie on the way.</p>
+      <a class="cookie-btn" href="../" style="text-decoration:none;display:inline-block">Go to the home page</a>
     </div>
   </section>
 </main>
+
 <footer>
-  <div class="wrap legal" style="margin-top:0;border-top:0;padding-top:0">
-    <span>© 2026 UllieMoeke Productions</span>
-    <span>This website uses no cookies or analytics. Only the edible kind. 🍪</span>
+  <div class="wrap">
+    <div class="legal" style="margin-top:0">
+      <span>© 2026 UllieMoeke Productions</span>
+      <span><a href="../">Home</a> · <a href="mailto:ulliemoekeproductions@gmail.com">ulliemoekeproductions@gmail.com</a></span>
+    </div>
   </div>
 </footer>
 </body>
