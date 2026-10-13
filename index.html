@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UllieMoeke Productions</title>
+  <meta name="description" content="Simple, funny little apps that solve stupid problems. No subscriptions, no paywalls, no accounts. Made by UllieMoeke Productions.">
+  <meta property="og:title" content="UllieMoeke Productions">
+  <meta property="og:description" content="Simple, funny little apps that solve stupid problems. No subscriptions, no paywalls, no accounts.">
+  <meta name="theme-color" content="#ff6a45">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Inter:wght@400..700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+  <script src="assets/main.js" defer></script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="./"><img src="assets/favicon.svg" alt=""><span>UllieMoeke <small>Productions</small></span></a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#apps" class="hide-sm">Apps</a>
+      <a href="#promise" class="hide-sm">Promise</a>
+      <a href="privacy/">Privacy</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle theme"></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+      <div class="grid-overlay"></div><div class="grain"></div>
+    </div>
+
+    <div class="float-icon i1" aria-hidden="true"><img src="assets/icons/emergency.png" alt=""></div>
+    <div class="float-icon i2" aria-hidden="true"><img src="assets/icons/scanner.png" alt=""></div>
+    <div class="float-icon i3" aria-hidden="true"><img src="assets/icons/plantscan.svg" alt=""></div>
+
+    <div class="wrap hero-inner">
+      <span class="eyebrow"><b>NEW</b> Three apps, zero subscriptions</span>
+      <h1 data-split>Apps that solve <span class="gradient-text">stupid problems.</span></h1>
+      <p class="lede">UllieMoeke Productions, <em>yes, that means “Your Grandmother Productions”</em>, makes simple little tools that do exactly what they say on the tin. No paywalls, no accounts, no stress.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#apps">Meet the apps
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-ghost" href="#story">Why grandma?</a>
+      </div>
+    </div>
+    <div class="scroll-hint" aria-hidden="true"></div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>No subscriptions</span><span>No paywalls</span><span>No accounts</span><span>Your data stays on your phone</span><span>Free digital cookies</span><span>Made with grandma energy</span>
+      <span>No subscriptions</span><span>No paywalls</span><span>No accounts</span><span>Your data stays on your phone</span><span>Free digital cookies</span><span>Made with grandma energy</span>
+    </div>
+  </div>
+
+  <section class="section" id="apps">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">The apps</span>
+        <h2 class="title">Literally<br>what you need.</h2>
+        <p>Every app does one thing, does it well, and keeps your stuff on your device.</p>
+      </div>
+
+      <!-- Literally Emergency -->
+      <article class="app red">
+        <div class="app-visual reveal">
+          <div class="ring" aria-hidden="true"></div><div class="ring r2" aria-hidden="true"></div>
+          <div class="phone" role="img" aria-label="Literally Emergency showing a big 112 button and your location">
+            <div class="screen">
+              <div class="s-title">Literally Emergency</div>
+              <div class="s-sub">Belgium · 112</div>
+              <div class="sos" aria-hidden="true">
+                <span class="pulse"></span><span class="pulse"></span><span class="pulse"></span>
+                <div class="core"><div>112<small>Tap to call</small></div></div>
+              </div>
+              <div class="loc-card" aria-hidden="true">
+                <b><span class="dot"></span>You are here</b>
+                Grote Markt 1, Brussels<br>50.8467° N, 4.3525° E · ±5 m
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="app-copy reveal" style="--d:.12s">
+          <div class="app-head">
+            <img class="app-icon" src="assets/icons/emergency.png" alt="Literally Emergency icon">
+            <div><span class="app-tag">Safety</span><h3>Literally Emergency</h3></div>
+          </div>
+          <p class="pitch">In an emergency, your head goes blank. <strong>One big button for the right emergency number wherever you are</strong>, your location to read out, and your medical info for whoever comes to help.</p>
+          <ul class="features">
+            <li>The right number in any country (112, 911, 999, 000…), worked out from your network.</li>
+            <li>Your address, coordinates and Plus Code in big text for the dispatcher.</li>
+            <li>Medical info on the lock screen, translated on-device for helpers.</li>
+            <li>Pair with family: their phone rings through silent, with end-to-end encrypted live location.</li>
+          </ul>
+          <div class="chips"><span class="chip">Android</span><span class="chip">Wear OS</span><span class="chip">EN · NL · FR · DE</span><span class="chip">No account</span></div>
+          <div class="app-actions">
+            <a class="btn btn-primary" href="privacy/literally-emergency/">Privacy policy</a>
+            <span class="soon">Coming soon to Google Play</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Literally Just a Scanner -->
+      <article class="app blue flip">
+        <div class="app-visual reveal">
+          <div class="ring" aria-hidden="true"></div><div class="ring r2" aria-hidden="true"></div>
+          <div class="phone" role="img" aria-label="Literally Just a Scanner straightening a document into a PDF">
+            <div class="screen">
+              <div class="s-title">Literally Just a Scanner</div>
+              <div class="s-sub">Page 1 of 1</div>
+              <div class="doc-stage" aria-hidden="true">
+                <div class="doc"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+                <span class="scanline"></span>
+              </div>
+              <span class="pdf-pill" aria-hidden="true">✓ Saved as PDF</span>
+            </div>
+          </div>
+        </div>
+        <div class="app-copy reveal" style="--d:.12s">
+          <div class="app-head">
+            <img class="app-icon" src="assets/icons/scanner.png" alt="Literally Just a Scanner icon">
+            <div><span class="app-tag">Productivity</span><h3>Literally Just a Scanner</h3></div>
+          </div>
+          <p class="pitch">You have a piece of paper. You want it to be a PDF on your phone. <strong>No account, no subscription, no watermark.</strong> It is literally just a scanner.</p>
+          <ul class="features">
+            <li>Automatic edge detection, with a crop you can fine-tune yourself.</li>
+            <li>Photo, Color, Grayscale and B&amp;W filters with contrast control.</li>
+            <li>Combine and reorder pages into one shareable PDF.</li>
+            <li>Everything is processed on your device; choose where scans are saved.</li>
+          </ul>
+          <div class="chips"><span class="chip">Android</span><span class="chip">On-device</span><span class="chip">Light &amp; dark</span><span class="chip">No watermark</span></div>
+          <div class="app-actions">
+            <a class="btn btn-primary" href="privacy/literally-just-a-scanner/">Privacy policy</a>
+            <span class="soon">Coming soon to Google Play</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Literally Plantscan -->
+      <article class="app green">
+        <div class="app-visual reveal">
+          <div class="ring" aria-hidden="true"></div><div class="ring r2" aria-hidden="true"></div>
+          <div class="phone" role="img" aria-label="Literally Plantscan recognising a plant">
+            <div class="screen">
+              <div class="s-title">Literally Plantscan</div>
+              <div class="s-sub">Offline · on-device</div>
+              <div class="leaf-stage" aria-hidden="true">
+                <svg class="leaf" viewBox="0 0 120 120"><path fill="#fff" d="M100 14C46 12 14 40 14 84c0 9 2 17 5 24 47 2 78-28 81-94z"/><path fill="none" stroke="#1f9a55" stroke-width="5" stroke-linecap="round" d="M22 106c18-28 40-50 68-72M44 76l-4-20M60 60l18 2"/></svg>
+                <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+                <span class="scanline"></span>
+              </div>
+              <div class="result" aria-hidden="true">
+                <span class="thumb"></span>
+                <div><b>Common ivy</b><i>Hedera helix</i></div>
+                <span class="pct">96%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="app-copy reveal" style="--d:.12s">
+          <div class="app-head">
+            <img class="app-icon" src="assets/icons/plantscan.svg" alt="Literally Plantscan icon">
+            <div><span class="app-tag">Nature</span><h3>Literally Plantscan</h3></div>
+          </div>
+          <p class="pitch">Point your camera at a plant and find out what it is. <strong>Recognition runs entirely on your phone</strong>, free and unlimited, even without a connection.</p>
+          <ul class="features">
+            <li>Thousands of European wild plants, garden plants and houseplants.</li>
+            <li>Works fully offline: your photos are never uploaded anywhere.</li>
+            <li>A private scan history you can revisit or delete at any time.</li>
+            <li>Trained on openly licensed photos shared by the iNaturalist community.</li>
+          </ul>
+          <div class="chips"><span class="chip">Android</span><span class="chip">Offline</span><span class="chip">Unlimited scans</span><span class="chip">No account</span></div>
+          <div class="app-actions">
+            <a class="btn btn-primary" href="privacy/literally-plantscan/">Privacy policy</a>
+            <span class="soon">Coming soon to Google Play</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section promise" id="promise">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">The UllieMoeke promise</span>
+        <h2 class="title">What grandma<br>would do.</h2>
+        <p>She doesn’t charge a monthly fee before baking you a waffle. Neither do we.</p>
+      </div>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="num gradient-text">01</div>
+          <h3>No subscriptions</h3>
+          <p>The internet has enough recurring fees. We aren’t going to siphon your bank account every month just so you can use a basic tool.</p>
+        </div>
+        <div class="card reveal" style="--d:.1s">
+          <div class="num gradient-text">02</div>
+          <h3>No obligated payments</h3>
+          <p>If we ever ask for money, it’s entirely optional, like tossing a coin in a digital tip jar. Never a ransom to unlock a basic feature.</p>
+        </div>
+        <div class="card reveal" style="--d:.2s">
+          <div class="num gradient-text">03</div>
+          <h3>Keep it simple</h3>
+          <p>If an actual grandmother can’t figure out how to tap the screen and make it work, we’ve made it too complicated.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="story">
+    <div class="wrap story-grid">
+      <h2 class="quote reveal">Why name an app company after your grandma?
+        <small>(Yes, UllieMoeke means “Your Grandmother.”)</small></h2>
+      <div class="reveal" style="--d:.1s">
+        <span class="kicker">Our story</span>
+        <p style="margin-top:18px">Because grandmothers are the ultimate standard for how things should work. They don’t lock their life advice behind a premium paywall, and they certainly don’t make you watch an unskippable ad before handing you a hard candy. <strong>They just want you to be happy, comfortable, and a little less confused by the world.</strong></p>
+        <p>That’s exactly how we build our software.</p>
+        <p>We aren’t here to disrupt the tech industry or build the next hyper-optimized productivity suite. We make apps that solve incredibly stupid problems: the tiny, ridiculous, everyday annoyances that don’t really matter but still drive you crazy. No bloated features, no endless menus, and absolutely no stress.</p>
+        <p><strong>We just want to make you smile, solve a dumb problem, and send you on your way.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="cookie-cta reveal">
+      <h2>UllieMoeke loves you.</h2>
+      <p>Grab a digital cookie, download an app, and make yourself at home.</p>
+      <button class="cookie-btn" type="button">Grab a cookie 🍪</button>
+      <span class="cookie-count" aria-live="polite"></span>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="logo" href="./"><img src="assets/favicon.svg" alt=""><span>UllieMoeke <small>Productions</small></span></a>
+        <p>Simple, funny little tools that do exactly what they say on the tin.</p>
+      </div>
+      <div>
+        <h4>Privacy</h4>
+        <ul>
+          <li><a href="privacy/literally-emergency/">Literally Emergency</a></li>
+          <li><a href="privacy/literally-just-a-scanner/">Literally Just a Scanner</a></li>
+          <li><a href="privacy/literally-plantscan/">Literally Plantscan</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:ulliemoekeproductions@gmail.com">ulliemoekeproductions@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 UllieMoeke Productions</span>
+      <span>Made with grandma energy 🍪</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
